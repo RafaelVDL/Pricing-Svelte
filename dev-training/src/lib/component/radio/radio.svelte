@@ -8,6 +8,6 @@
 {#each data as data, index}
 
     <input type="radio" class="btn-check" name="vbtn-radio" id="btnRadio{index}" autocomplete="off" on:click={()=>(selectedPrice = data.price)}>
-    <label class="btn btn-outline-success" for="btnRadio{index}">{data.item} - {data.price}</label>
+    <label class="btn btn-outline-secondary" for="btnRadio{index}">{data.item} - {data.price}</label>
 
 {/each}

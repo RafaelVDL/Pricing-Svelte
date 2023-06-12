@@ -21,7 +21,8 @@
         <label for="price" class="form-label">Price:</label>
         <input type="text" name="price" class="form-control mb-3" id="price">
     </div>
+    <hr>
     <div class="d-flex justify-content-center">
-        <button type="submit" class="btn btn-outline-success">Add</button>
+        <button type="submit" class="btn btn-success">Add</button>
     </div>
 </form>
