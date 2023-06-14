@@ -4,12 +4,12 @@
     import Forms from "$lib/component/forms/forms.svelte";
     import Radio from "$lib/component/radio/radio.svelte";
     import List from "$lib/component/list/list.svelte";
-    import {pricing} from "$lib/module/pricing/store.js";
+    import {pricing} from "$lib/module/pricing/storelocal.js";
 
-    pricing.add({item:"Item1", price:20});
-    pricing.add({item:"Item2", price:10});
-    pricing.add({item:"Item3", price:40});
-    pricing.add({item:"Item4", price:30});
+    // pricing.add({item:"Item1", price:20});
+    // pricing.add({item:"Item2", price:10});
+    // pricing.add({item:"Item3", price:40});
+    // pricing.add({item:"Item4", price:30});
 
     let data = JSON.parse(JSON.stringify($pricing));
 

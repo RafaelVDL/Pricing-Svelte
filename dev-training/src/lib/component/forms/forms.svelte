@@ -22,7 +22,7 @@
         <input type="text" name="price" class="form-control mb-3" id="price">
     </div>
     <hr>
-    <div class="d-flex justify-content-center">
-        <button type="submit" class="btn btn-success">Add</button>
+    <div class="d-flex justify-content-center mb-2">
+        <button type="submit" class="btn btn-primary">Add Item</button>
     </div>
 </form>
